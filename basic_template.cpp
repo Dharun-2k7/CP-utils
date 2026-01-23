@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-#define ll long long
+#define int long long
 #define ull unsigned long long
 #define vi vector<int>
 #define vll vector<long long>
