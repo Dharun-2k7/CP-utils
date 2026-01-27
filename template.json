@@ -20,7 +20,7 @@
       "#define rep(i,a,b) for(int i=a;i<b;i++)",
       "#define revrep(i,a,b) for(int i=a;i>=b;i--)",
       "#define fast ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);",
-      "#define end \"\\n\"",
+      "#define nl \"\\n\"",
       "",
       "int gcd(int a,int b){",
       "    if(b==0) return a;",
