@@ -1,5 +1,8 @@
 # Recap: Modular and Integer Arithmetic
 CODEFORCES BLOG LINK : https://codeforces.com/blog/entry/149808
+
+--- 
+
 This is a comprehensive recap of modular arithmetic and integer properties, useful for beginners and as a refresher for competitive programming.
 
 ---
@@ -57,7 +60,7 @@ for i in range(tc):
     print(pow(2, p, mod)) 
 
 ```
-4. Negative Numbers and Modulo
+## 4 Negative Numbers and Modulo
 
 Modulo with negative numbers is handled differently depending on the language. Mathematically, −7(mod3) equals 2.
 Language	Result of -7 % 3
@@ -65,7 +68,8 @@ Python	2
 C++ / Java	-1
 
 The Safe Expression: To avoid surprises and ensure a value in the range [0,m−1] across any language, use: $$ (a \pmod m + m) \pmod m $$
-5. Digit Extraction
+
+## 5. Digit Extraction
 
 Modulo is also heavily used in digit manipulation problems.
 
@@ -74,7 +78,8 @@ Modulo is also heavily used in digit manipulation problems.
     Remove the last digit: n // 10 (integer division)
 
 Example: Repeatedly applying these operations to 12345 extracts digits from right to left: 5, 4, 3, 2, 1. This pattern appears in problems involving digit sums, palindromes, and reversing numbers.
-6. Common Mistakes
+
+## 6. Common Mistakes
 
     Confusing Division with Modulo: Mixing them incorrectly in expressions without proper parentheses.
 
@@ -84,12 +89,12 @@ Example: Repeatedly applying these operations to 12345 extracts digits from righ
 
 Practice Problems
 
-    Happy Number
+    Happy Number : https://leetcode.com/problems/happy-number/
 
-    Add Digits
+    Add Digits : https://leetcode.com/problems/add-digits/description/
 
-    Fizz Buzz
+    Fizz Buzz : https://leetcode.com/problems/fizz-buzz/
 
-    Power of Two
+    Power of Two : https://leetcode.com/problems/power-of-two/
 
 This post was written while revisiting the modulo and integer arithmetic sections on REPOVIVE. Thanks to Shayan for building and maintaining such a useful resource.
