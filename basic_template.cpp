@@ -1,13 +1,14 @@
 #include<bits/stdc++.h>
 using namespace std;
-
 #define int long long
+#define db double
 #define ull unsigned long long
 #define vi vector<int>
 #define vll vector<long long>
 #define vvi vector<vi>
 #define vvll vector<vll>
 #define pii pair<int,int>
+#define vpii vector<pair<int,int>>
 #define pll pair<long long,long long>
 #define pb push_back
 #define mp make_pair
@@ -28,13 +29,18 @@ void solve(){
     
 }
 
-int32_t main(){
-    fast
+void test(){
     int t;
     cin >> t;
     while(t--){
         solve();
     }
+}
+
+int32_t main(){
+    fast
+    test();
+    //solve();
     return 0;
 }
 
